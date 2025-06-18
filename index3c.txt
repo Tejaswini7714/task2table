@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid #000;
+      padding: 6px;
+      text-align: center;
+    }
+    .no-border {
+      border: none;
+    }
+    .header {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .sub-header {
+      text-align: center;
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 10px;
+    }
+    .footer td {
+      border: none;
+    }
+    .thank-you {
+      font-weight: bold;
+    }
+    .notes {
+      font-size: 12px;
+    }
+  </style>
+    
+</head>
+<body>
+
+  <div class="header">Your Company Name</div>
+  <div class="sub-header">ADDRESS</div>
+  <div style="display: flex; justify-content: space-between; margin: 10px 0;">
+    <div><strong>CASE / CREDIT BILL</strong></div>
+    <div><strong>Mobile :</strong></div>
+  </div>
+
+  <table>
+    <tr>
+      <td colspan="2">M/s.</td>
+      <td>No :</td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+      <td>Date :</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>S.No.</th>
+      <th>Particulars</th>
+      <th>Qty</th>
+      <th>Rate</th>
+      <th>Amount Rs.</th>
+      <th>Ps.</th>
+    </tr>
+    <!-- Repeat this row as needed -->
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <!-- You can copy/paste the row above to add more -->
+    <!-- Add multiple empty rows for entries -->
+    <!-- Example with 10 rows -->
+    <!-- ... -->
+    <tr>
+      <td colspan="4">E. & O. E</td>
+      <td>Total</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+
+  <table class="footer" style="width: 100%; margin-top: 10px;">
+    <tr>
+      <td class="thank-you">THANK YOU</td>
+      <td style="text-align: right;">For Your Company Name</td>
+    </tr>
+    <tr>
+      <td class="notes">Goods Once Sold Will not Be Taken Back</td>
+      <td style="text-align: right;">Proprietor</td>
+    </tr>
+  </table>
+
+</body>
+</html>
